@@ -4,11 +4,11 @@
 
 Set targetDateTime in index.js
 
-    targetDateTime.setFullYear(2023,2,3);
-    targetDateTime.setHours(23,59,59);
+    const targetDateTime = new Date(2023,2,2,23,59,59);
 
 run
 
+    sudo apt install nodejs npm
     npm run build
 
 ## Create React App

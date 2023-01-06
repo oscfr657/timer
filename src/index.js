@@ -5,9 +5,7 @@ import './index.css';
   class Timer extends React.Component {
     constructor(props){
       super(props)
-      const targetDateTime = new Date();
-      targetDateTime.setFullYear(2023,2,3);
-      targetDateTime.setHours(23,59,59);
+      const targetDateTime = new Date(2023,2,3,23,59,59);
       this.state = {
         targetDateTime: targetDateTime,
         secondsDifference: 0,
